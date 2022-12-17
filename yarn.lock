@@ -1224,6 +1224,13 @@
     "json-schema-traverse" "^0.4.1"
     "uri-js" "^4.2.2"
 
+"akar-icons@^1.9.22":
+  "integrity" "sha512-0yCqRCnlq4STTZCe2SB3uwjlkdxGsQcEaYCnVk+Bd++OMVDzPHbhCrYS8vceIoLzAz0gx27iWYgKKG9hsuDyYg=="
+  "resolved" "https://registry.npmjs.org/akar-icons/-/akar-icons-1.9.22.tgz"
+  "version" "1.9.22"
+  dependencies:
+    "prop-types" "^15.7.2"
+
 "ansi-regex@^2.0.0":
   "integrity" "sha512-TIGnTpdo+E3+pCyAluZvtED5p5wCqLdezCyhPZzKPcxvFplEt4i+W7OONCKgeZFT3+y5NZZfOOS/Bdcanm1MYA=="
   "resolved" "https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz"
@@ -3833,7 +3840,7 @@
   "resolved" "https://registry.npmjs.org/private/-/private-0.1.8.tgz"
   "version" "0.1.8"
 
-"prop-types@^15.0.0", "prop-types@^15.8.1":
+"prop-types@^15.0.0", "prop-types@^15.7.2", "prop-types@^15.8.1":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"

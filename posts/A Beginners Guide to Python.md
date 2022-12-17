@@ -2,9 +2,9 @@
 title: "A Beginner's Guide to Python"
 desc: "This article is a beginner's guide to Python, a popular, high-level programming language known for its simplicity, readability, and flexibility. It covers the basic syntax of Python, as well as data types, operators, control structures, functions, modules, and working with files. The article also discusses exception handling and provides resources for learning more about Python."
 date: "12/16/2022"
-readTime: "10-15 Min"
+readTime: "5-10 Min"
 tags:
-  - "article"
+  - "tutorial"
   - "learn"
   - "beginner"
   - "guide"
@@ -13,13 +13,13 @@ tags:
 
 Python is a popular, high-level programming language known for its simplicity, readability, and flexibility. It is a general-purpose language, which means it can be used to build almost anything, from web applications to desktop applications to scientific applications and more.
 
-## Getting Started {#getting_started}
+## Getting Started
 
 To get started with Python, you will need to have it installed on your computer. You can download the latest version of Python from the official Python website (https://www.python.org/).
 
 Once you have Python installed, you can start writing Python code using a text editor or an integrated development environment (IDE). Some popular IDEs for Python include PyCharm, IDLE (which comes with Python), and Visual Studio Code.
 
-## Basic Syntax {#basic_syntax}
+## Basic Syntax
 
 Here is a simple example of a Python program that prints "Hello, World!" to the console:
 
@@ -29,7 +29,7 @@ print("Hello, World!")
 
 In Python, code is indented using four spaces (or one tab). This is important because it helps to visually distinguish blocks of code and is used to define code blocks, such as those in loops and functions.
 
-## Variables {#variables}
+## Variables
 
 In Python, you can use variables to store and manipulate data. To create a variable, you simply assign a value to it using the equals sign (=). For example:
 
@@ -40,7 +40,7 @@ y = "Hello, World!"
 
 In this example, we have created two variables: `x`, which has a value of 5, and `y`, which has a value of "Hello, World!".
 
-## Data Types {#data_types}
+## Data Types
 
 In Python, there are several built-in data types that you can use to store different types of data. Some of the most common data types in Python include:
 
@@ -62,7 +62,7 @@ z = True
 print(type(z))  # Output: <class 'bool'>
 ```
 
-## Operators {#operators}
+## Operators
 
 In Python, you can use operators to perform various operations on variables and values. Some common operators in Python include:
 
@@ -94,11 +94,11 @@ print(x / y)  # Output: 1.6666666666666667
 print(x % y)  # Output: 2
 ```
 
-## Control Structures {#control_structures}
+## Control Structures
 
 In Python, you can use control structures to specify the flow of your program. Some common control structures in Python include:
 
-### `if` Statements {#if_statements}
+### `if` Statements
 
 You can use `if` statements to execute a block of code only if a certain condition is met. For example:
 
@@ -124,7 +124,7 @@ else:
   print("x is equal to y")
 ```
 
-### `for` Loops {#for_loops}
+### `for` Loops
 
 You can use `for` loops to iterate over a sequence of elements, such as a list or a string. For example:
 
@@ -199,7 +199,7 @@ while x < 5:
 # 4
 ```
 
-## Functions {#functions}
+## Functions
 
 In Python, you can define your own functions to encapsulate blocks of code that you want to reuse. To define a function, you use the def keyword, followed by the function name and a set of parentheses that may include parameters. For example:
 
@@ -221,7 +221,7 @@ greet("John")  # Output: "Hello, John!"
 greet("Jane", "Hi")  # Output: "Hi, Jane!"
 ```
 
-## Modules {#modules}
+## Modules
 
 In Pytho, you can use modules to organize your code and reuse code across different projects. A module is simply a Python file with a .py extension that contains a set of functions, variables, and classes.
 
@@ -261,7 +261,7 @@ x = 2
 print(my_sqrt(x))  # Output: 1.4142135623730951
 ```
 
-## Working with Files {#working_with_files}
+## Working with Files
 
 In Python, you can use the built-in `open()` function to work with files. To open a file, you specify the file name and the mode in which you want to open the file (e.g. "r" for reading, "w" for writing, etc.). For example:
 
@@ -294,7 +294,7 @@ with open("myfile.txt", "w") as f:
   f.write("Hello, World!")
 ```
 
-## Exception Handling {#exception_handling}
+## Exception Handling
 
 In Python, you can use exception handling to gracefully handle errors that may occur in your code. To do this, you can use the `try` and `except` statements. For example:
 
@@ -321,6 +321,6 @@ except ZeroDivisionError:
     print("This code will always be executed")
 ```
 
-## Conclusion {#conclusion}
+## Conclusion
 
 This is just a brief introduction to Python, but it should give you a good foundation for getting started with the language. To learn more about Python, you can refer to the official Python documentation or consider taking an online course or tutorial. There are also many resources available online, such as online communities and forums, where you can ask questions and get help with your Python projects.

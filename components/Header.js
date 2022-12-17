@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { Info } from 'akar-icons';
 
 const Header = () => (
 	<div className='bg-violet-500'>
@@ -11,7 +12,7 @@ const Header = () => (
 				</Link>
 			</div>
 			<Link legacyBehavior href="/about" >
-				<a className="text-lg font-bold tracking-tight text-white transition duration-150 ease-in-out hover:underline">About</a>
+				<a className="pr-3 text-lg font-bold tracking-tight text-white transition duration-150 ease-in-out hover:underline">About</a>
 			</Link>
 		</header>
 	</div>
