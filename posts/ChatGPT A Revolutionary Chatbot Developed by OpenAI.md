@@ -4,9 +4,11 @@ desc: "This article discusses ChatGPT, a powerful chatbot developed by OpenAI th
 date: "12/16/2022"
 readTime: "3-4 min"
 tags:
+  - "article"
+  - "ai"
   - "openai"
   - "chatgpt"
-  - "ai"
+  - "chatbot"
 ---
 
 ChatGPT is a chatbot developed by OpenAI that is based on transformer-based language models. It was introduced in 2021 and has received widespread attention due to its ability to generate human-like text and hold realistic conversations with users.

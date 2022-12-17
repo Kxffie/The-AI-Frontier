@@ -4,9 +4,11 @@ desc: "DALL-E is a state-of-the-art AI system developed by OpenAI that generates
 date: "12/16/2022"
 readTime: "4-5 min"
 tags:
-  - "openai"
-  - "dalle"
+  - "article"
   - "ai"
+  - "dalle"
+  - "openai"
+  - "machine learning"
 --- 
 
 DALL-E is a state-of-the-art artificial intelligence (AI) system developed by OpenAI that is capable of generating original images from text descriptions. It was introduced in 2021 and has received widespread attention due to its impressive ability to generate high-quality images that are both realistic and surreal.

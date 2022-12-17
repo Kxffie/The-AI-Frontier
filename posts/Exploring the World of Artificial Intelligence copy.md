@@ -4,7 +4,11 @@ desc: "Learn about the history and current state of artificial intelligence (AI)
 date: "12/16/2022"
 readTime: "2-3 min"
 tags:
+  - "article"
   - "ai"
+  - "robotics"
+  - "learning"
+  - "deep learning"
 ---
 
 Artificial intelligence (AI) is a rapidly growing field that involves the development of computer systems that can perform tasks that normally require human intelligence, such as learning, problem solving, and decision making. AI has the potential to transform a wide range of industries, from healthcare and finance to education and transportation.

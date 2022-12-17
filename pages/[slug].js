@@ -14,6 +14,7 @@ const Post = (props) => {
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 			</Head>
 			<GoBackButton />
+
 			<h1 className="mb-4 text-4xl font-bold text-gray-800">{props.post.data.title}</h1>
 			<div className="text-gray-700" dangerouslySetInnerHTML={{ __html: marked(props.post.content) }} />
 		</div>

@@ -1,11 +1,14 @@
 ---
 title: "Creating a NextJS app: A step-by-step guide"
-desc: "Learn about the history and current state of artificial intelligence (AI) in this article. We will explore AIs applications in various industries and its ethical considerations. From machine learning to natural language processing, discover the technologies that make up the field of AI and how they are solving real-world problems."
+desc: "This article is a tutorial that guides readers through the process of creating a basic NextJS app from scratch. It covers the prerequisites for setting up a NextJS app, as well as the steps for creating a new app and starting the development server. The article also provides tips for working with NextJS and creating additional pages in the app. The tutorial is suitable for developers who are new to NextJS or web development in general."
 date: "12/16/2022"
-readTime: "2-3 min"
+readTime: "3-4 min"
 tags:
-  - "web"
+  - "tutorial"
+  - "js"
+  - "react"
   - "nextjs"
+  - "javascript"
 ---
 
 NextJS is a popular JavaScript framework for building server-rendered React apps. In this tutorial, we'll walk through the steps of creating a basic NextJS app from scratch.

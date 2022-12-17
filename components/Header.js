@@ -1,17 +1,22 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header = () => (
 	<div className='bg-violet-500'>
 		<header className="flex items-center justify-between max-w-2xl p-3 mx-auto">
-			<Link legacyBehavior href="/">
-				<a className="text-2xl font-bold tracking-tight text-white hover:underline">The AI Frontier</a>
-			</Link>
+			<div className="flex items-center">
+				<Image width="500" height="500" src="/favicon.jpg" alt="Logo" className="w-10 h-10 rounded-full" />
+				<Link legacyBehavior href="/">
+					<a className="pl-3 text-2xl font-bold tracking-tight text-white transition duration-150 ease-in-out hover:underline">The AI Frontier</a>
+				</Link>
+			</div>
 			<Link legacyBehavior href="/about" >
-				<a className="text-lg font-bold tracking-tight text-white hover:underline">About</a>
+				<a className="text-lg font-bold tracking-tight text-white transition duration-150 ease-in-out hover:underline">About</a>
 			</Link>
 		</header>
 	</div>
 );
+
 
 
 export default Header;
