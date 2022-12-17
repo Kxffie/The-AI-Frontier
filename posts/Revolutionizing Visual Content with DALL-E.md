@@ -2,7 +2,7 @@
 title: "Revolutionizing Visual Content with DALL-E"
 desc: "DALL-E is a state-of-the-art AI system developed by OpenAI that generates original images from text descriptions. It is capable of generating a wide range of images that are both realistic and surreal, and has numerous potential applications. DALL-E is an exciting development in the field of AI that has the potential to revolutionize the way we create and consume visual content."
 date: "12/16/2022"
-readTime: "4-5 min"
+readTime: "4-5 Min"
 tags:
   - "article"
   - "ai"

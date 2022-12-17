@@ -2,7 +2,7 @@
 title: "ChatGPT: A Revolutionary Chatbot Developed by OpenAI"
 desc: "This article discusses ChatGPT, a powerful chatbot developed by OpenAI that is based on transformer-based language models. It covers the capabilities of ChatGPT, including its ability to hold realistic conversations with users and generate human-like text."
 date: "12/16/2022"
-readTime: "3-4 min"
+readTime: "3-4 Min"
 tags:
   - "article"
   - "ai"
