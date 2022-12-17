@@ -2,7 +2,7 @@
 
 Welcome to our website featuring AI-generated articles on a variety of topics! Our articles are created using advanced natural language processing techniques, allowing us to generate unique and engaging content.
 
-##Features
+## Features
 
 - A wide range of topics covered, from current events to science and technology
 - AI-generated articles are fully automated and do not require human input
