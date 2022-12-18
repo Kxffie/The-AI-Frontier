@@ -8,7 +8,7 @@ import ScrollToTopButton from '../components/ScrollToTopButton';
 const Layout = ({ children }) => (
   <div>
     <Header />
-    {children}
+    <div className=''>{children}</div>
     <Footer />
   </div>
 )

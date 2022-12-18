@@ -24,8 +24,8 @@ const Index = (props) => {
     return (
       filteredPosts.map((post) => (
         <div key={post.slug} class="text-black" >
-          <div class="container max-w-2xl mx-auto px-10 py-6 rounded-lg shadow-xl">
-            <div class="flex items-center justify-between">
+          <div class="container max-w-2xl mx-auto mb-3 px-10 py-6 rounded-lg shadow-xl bg-white">
+            <div class="flex items-center justify-between ">
               <span class="text-sm dark:text-gray-400">{post.data.date} • {post.data.readTime}</span>
               <span rel="noopener noreferrer" class="px-2 py-1 font-bold rounded">
                 {post.data.tags.map((tag) => (

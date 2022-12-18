@@ -25,12 +25,18 @@ const ScrollToTopButton = () => {
 	};
 
 	return showButton ? (
-		<div className='sticky bottom-0 flex justify-end w-full pb-3 pr-5 transition '>
-			<button className='px-2 py-2 text-lg font-semibold text-white rounded-full shadow-lg bg-violet-500' onClick={handleClick}>
+		<div className='sticky inset-x-0 bottom-0 flex justify-center w-full pb-3 transition'>
+			<button className='absolute px-2 py-1 text-lg font-semibold text-white transition-opacity duration-500 ease-in-out origin-bottom rounded-md shadow-lg opacity-100 bottom-3 bg-violet-500 animate-bounce' onClick={handleClick}>
 				<ArrowUp size={36} />
 			</button>
 		</div>
-	) : null;
+	) : (
+		<div className='sticky inset-x-0 bottom-0 flex justify-center w-full pb-3 transition'>
+			<button className='absolute px-2 py-1 text-lg font-semibold text-white transition-opacity duration-500 ease-in-out origin-bottom rounded-md shadow-lg opacity-0 bottom-3 bg-violet-500 animate-bounce' onClick={handleClick}>
+				<ArrowUp size={36} />
+			</button>
+		</div>
+	);
 };
 
 export default ScrollToTopButton;
