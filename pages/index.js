@@ -12,6 +12,7 @@ const Index = (props) => {
     setSearchQuery(event.target.value);
   };
 
+
   const handleSearchSubmit = () => {
     let filteredPosts;
     if (searchQuery === '') {
@@ -39,8 +40,7 @@ const Index = (props) => {
             </div>
           </div>
         </div >
-      )
-      ));
+      )));
   };
 
   const goToRandomPost = () => {
