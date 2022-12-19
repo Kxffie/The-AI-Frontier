@@ -23,6 +23,7 @@ const Index = (props) => {
         post.data.tags.some((tag) => tag.toLowerCase().includes(searchQuery.toLowerCase()))
       );
     }
+
     return (
       <div>
         <Head>
@@ -35,9 +36,10 @@ const Index = (props) => {
           <meta name="twitter:card" content="https://aidevblog.vercel.app/favicon.jpg"></meta>
           <meta content="#8B5CF6" data-react-helmet="true" name="theme-color" />
         </Head>
+        <h1 className='px-2 py-1 my-2 text-lg font-semibold text-white rounded-md shadow-lg bg-violet-500'>{filteredPosts.length} Results • New Results</h1>
         {filteredPosts.map((post) => (
           <div key={post.slug} className="text-black" >
-            <div className="container max-w-2xl px-10 py-6 mx-auto mb-3 bg-white rounded-lg shadow-xl">
+            <div className="container max-w-2xl px-10 py-6 mx-auto mb-3 bg-white rounded-lg shadow-xl ">
               <div className="flex items-center justify-between ">
                 <span className="text-sm dark:text-gray-400">{post.data.date} • {post.data.readTime}</span>
                 <span rel="noopener noreferrer" className="px-2 py-1 font-bold rounded">
@@ -73,10 +75,6 @@ const Index = (props) => {
         <button className='px-2 py-1 ml-2 text-lg font-semibold text-white rounded-md shadow-lg bg-violet-500' onClick={handleSearchSubmit}>Search</button>
         <button className='px-2 py-1 ml-2 text-lg font-semibold text-white rounded-md shadow-lg bg-violet-500' onClick={goToRandomPost}><Dice5 size={30} /></button>
       </div>
-      <div>
-        <h1 className='text-violet-500'>{handleSearchSubmit().length} Results • New Results</h1>
-      </div>
-      <br />
       {handleSearchSubmit()}
     </div>
   );

@@ -5,7 +5,7 @@ date: "12/16/2022"
 readTime: "5-10 Min"
 tags:
   - "tutorial"
-  - "py"
+  - "framework"
   - "flask"
   - "python"
   - "web development"

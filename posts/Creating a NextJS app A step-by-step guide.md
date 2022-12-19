@@ -5,7 +5,7 @@ date: "12/16/2022"
 readTime: "3-4 Min"
 tags:
   - "tutorial"
-  - "js"
+  - "framework"
   - "react"
   - "nextjs"
   - "javascript"

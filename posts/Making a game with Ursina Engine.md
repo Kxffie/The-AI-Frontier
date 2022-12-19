@@ -77,7 +77,7 @@ def update(dt):
 app.run(update=update)
 ```
 
-You can find more information on handling user input in the Ursina Engine documentation.
+You can find more information on handling user input in the [Ursina Engine documentation](https://www.ursinaengine.org/documentation.html).
 
 ## Adding audio and graphics
 
