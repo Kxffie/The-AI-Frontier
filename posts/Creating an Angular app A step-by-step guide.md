@@ -1,8 +1,8 @@
 ---
 title: "Creating an Angular app: A step-by-step guide"
-desc: "This article provides a step-by-step guide on how to implement a binary tree in Python. It includes a Node class for representing individual nodes in the tree, as well as a BinaryTree class that contains methods for traversing the tree in different orders. The article also includes example code for creating a binary tree and traversing it in preorder, inorder, and postorder."
+desc: "This article provides a step-by-step guide on creating an Angular app, a front-end web framework for building single-page applications. It covers the benefits of Angular, installation instructions, and an example of building a TODO app using Angular components."
 date: "12/18/2022"
-readTime: "3-4 Min"
+readTime: "3-5 Min"
 tags:
   - "tutorial"
   - "angular"
