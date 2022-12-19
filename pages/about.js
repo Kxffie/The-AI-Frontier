@@ -4,7 +4,7 @@ export default function About() {
 	return (
 		<div className='flex items-center justify-center h-screen'>
 			<Head>
-				<title>The AI Frontier - About</title>
+				<title>AIDevBlog - About</title>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 				<meta content="The AI Frontier" property="og:title" />
 				<meta content="Our blog covers the latest trends and developments in coding and AI. From programming languages to machine learning, we share insights and experiences on a wide range of topics. Whether you're a seasoned developer or just starting out, we hope you'll find our blog a valuable resource." property="og:description" />

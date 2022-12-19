@@ -10,7 +10,7 @@ const Footer = () => {
 					<div className="flex items-center">
 						<Image width="500" height="500" src="/favicon.jpg" alt="Logo" className="w-8 h-8 rounded-full" />
 						<p className="pl-3 text-sm leading-5">
-							Copyright © 2022 The AI Frontier
+							Copyright © 2022 AIDevBlog
 						</p>
 					</div>
 					<div className="flex items-center">
