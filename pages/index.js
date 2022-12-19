@@ -36,19 +36,19 @@ const Index = (props) => {
           <meta content="#8B5CF6" data-react-helmet="true" name="theme-color" />
         </Head>
         {filteredPosts.map((post) => (
-          <div key={post.slug} class="text-black" >
-            <div class="container max-w-2xl mx-auto mb-3 px-10 py-6 rounded-lg shadow-xl bg-white">
-              <div class="flex items-center justify-between ">
-                <span class="text-sm dark:text-gray-400">{post.data.date} • {post.data.readTime}</span>
-                <span rel="noopener noreferrer" class="px-2 py-1 font-bold rounded">
+          <div key={post.slug} className="text-black" >
+            <div className="container max-w-2xl px-10 py-6 mx-auto mb-3 bg-white rounded-lg shadow-xl">
+              <div className="flex items-center justify-between ">
+                <span className="text-sm dark:text-gray-400">{post.data.date} • {post.data.readTime}</span>
+                <span rel="noopener noreferrer" className="px-2 py-1 font-bold rounded">
                   {post.data.tags.map((tag) => (
-                    <div key={post.slug.tag} class="hidden md:inline-block px-2 py-1 text-sm font-semibold shadow-lg ml-1 rounded-md bg-violet-500 text-white">{tag}</div>
+                    <div key={post.slug.tag} className="hidden px-2 py-1 ml-1 text-sm font-semibold text-white rounded-md shadow-lg md:inline-block bg-violet-500">{tag}</div>
                   ))}
                 </span>
               </div>
-              <div class="mt-3">
-                <Link rel="noopener noreferrer" href="/[slug]" as={`/${post.slug}`} class="text-2xl font-bold hover:underline">{post.data.title}</Link>
-                <p class="mt-2 line-clamp-3 overflow-hidden">{post.data.desc}</p>
+              <div className="mt-3">
+                <Link rel="noopener noreferrer" href="/[slug]" as={`/${post.slug}`} className="text-2xl font-bold hover:underline">{post.data.title}</Link>
+                <p className="mt-2 overflow-hidden line-clamp-3">{post.data.desc}</p>
               </div>
             </div>
           </div >
@@ -74,7 +74,7 @@ const Index = (props) => {
         <button className='px-2 py-1 ml-2 text-lg font-semibold text-white rounded-md shadow-lg bg-violet-500' onClick={goToRandomPost}><Dice5 size={30} /></button>
       </div>
       <div>
-        <h1>{filteredPosts.length} Results • New Results</h1>
+        <h1 className='text-violet-500'>{handleSearchSubmit().length} Results • New Results</h1>
       </div>
       <br />
       {handleSearchSubmit()}
