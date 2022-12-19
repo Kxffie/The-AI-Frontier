@@ -5,7 +5,7 @@ export default function About() {
 	return (
 		<div className='flex items-center justify-center h-screen'>
 			<Head>
-				<title>The AI Frontier - About</title>
+				<title>DevBlog - 404</title>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 			</Head>
 			<div class="h-screen w-screen flex items-center">

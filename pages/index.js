@@ -26,7 +26,7 @@ const Index = (props) => {
     return (
       <div>
         <Head>
-          <title>The AI Frontier</title>
+          <title>DevBlog</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <meta content="The AI Frontier" property="og:title" />
           <meta content="Our blog covers the latest trends and developments in coding and AI. From programming languages to machine learning, we share insights and experiences on a wide range of topics. Whether you're a seasoned developer or just starting out, we hope you'll find our blog a valuable resource." property="og:description" />
@@ -42,7 +42,7 @@ const Index = (props) => {
                 <span class="text-sm dark:text-gray-400">{post.data.date} • {post.data.readTime}</span>
                 <span rel="noopener noreferrer" class="px-2 py-1 font-bold rounded">
                   {post.data.tags.map((tag) => (
-                    <span key={post.slug.tag} class="inline-block px-2 py-1 text-sm font-semibold shadow-lg ml-1 rounded-md bg-violet-500 text-white">{tag}</span>
+                    <div key={post.slug.tag} class="hidden md:inline-block px-2 py-1 text-sm font-semibold shadow-lg ml-1 rounded-md bg-violet-500 text-white">{tag}</div>
                   ))}
                 </span>
               </div>
