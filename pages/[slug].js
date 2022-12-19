@@ -9,7 +9,7 @@ const Post = (props) => {
 	return (
 		<div className="max-w-3xl p-4 mx-auto mb-4 text-2xl font-bold prose text-gray-800 lg:prose-xl">
 			<Head>
-				<title>DevBlog - {props.post.data.title}</title>
+				<title>The AI Frontier - {props.post.data.title}</title>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 				<meta content={props.post.data.title} property="og:title" />
 				<meta content={props.post.data.desc} property="og:description" />

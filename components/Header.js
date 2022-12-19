@@ -8,7 +8,7 @@ const Header = () => (
 			<div className="flex items-center">
 				<Image width="500" height="500" src="/favicon.jpg" alt="Logo" className="w-10 h-10 rounded-full" />
 				<Link legacyBehavior href="/">
-					<a className="pl-3 text-2xl font-bold tracking-tight text-white transition duration-150 ease-in-out hover:underline">DevBlog</a>
+					<a className="pl-3 text-2xl font-bold tracking-tight text-white transition duration-150 ease-in-out hover:underline">The AI Frontier</a>
 				</Link>
 			</div>
 			<Link legacyBehavior href="/about" >
