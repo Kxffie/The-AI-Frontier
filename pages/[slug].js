@@ -2,7 +2,6 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
-import Link from 'next/link';
 import Head from 'next/head';
 import GoBackButton from '../components/GoBack';
 
@@ -12,6 +11,11 @@ const Post = (props) => {
 			<Head>
 				<title>{props.post.data.title}</title>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+				<meta content={props.post.data.title} property="og:title" />
+				<meta content={props.post.data.desc} property="og:description" />
+				<meta content={props.post.slug} property="og:url" />
+				<meta content="https://the-ai-frontier.vercel.app/favicon.jpg" property="og:image" />
+				<meta content="#8B5CF6" data-react-helmet="true" name="theme-color" />
 			</Head>
 			<GoBackButton />
 
