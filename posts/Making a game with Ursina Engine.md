@@ -11,7 +11,7 @@ tags:
   - "python"
 ---
 
-Ursina Engine is a powerful and easy-to-use game engine written in Python. In this guide, we'll walk through the process of creating a simple game using Ursina Engine.
+[Ursina Engine](https://discord.gg/hYfQjNgXbv) is a powerful and easy-to-use game engine written in Python. In this guide, we'll walk through the process of creating a simple game using Ursina Engine.
 
 ## Prerequisites
 
