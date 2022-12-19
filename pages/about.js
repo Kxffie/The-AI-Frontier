@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 
 export default function About() {
 	return (
@@ -13,7 +14,7 @@ export default function About() {
 				<meta name="twitter:card" content="https://aidevblog.vercel.app/favicon.jpg"></meta>
 				<meta content="#8B5CF6" data-react-helmet="true" name="theme-color" />
 			</Head>
-			<h1 className='text-5xl'>Hello!</h1>
+			<h1 className='text-3xl'>AIDevBlog, A Website Written By An AI</h1>
 		</div>
 	)
-};
+}
